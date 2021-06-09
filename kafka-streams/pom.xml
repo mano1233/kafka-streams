@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <groupId>services.idf.neo.kafka.streams</groupId>
+    <groupId>streams.StreamsStarterApp</groupId>
     <artifactId>kafka-streams-testing</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
@@ -64,7 +64,7 @@
                     <descriptorRefs>jar-with-dependencies</descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>services.idf.neo.kafka.streams.StreamsStarterApp</mainClass>
+                            <mainClass></mainClass>
                         </manifest>
                     </archive>
                 </configuration>
